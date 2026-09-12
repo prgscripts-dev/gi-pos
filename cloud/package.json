@@ -1,0 +1,19 @@
+{
+  "name": "gi-pos-cloud",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cloud sync API for GI POS Restaurant",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "migrate": "node --env-file-if-exists=.env src/migrate.js",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "pg": "^8.16.3",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gi_red">#FFC71637</color>
+    <color name="gi_red_dark">#FF9F102B</color>
+    <color name="gi_teal">#FF087F8C</color>
+    <color name="gi_ink">#FF122033</color>
+    <color name="gi_muted">#FF63738A</color>
+    <color name="gi_surface">#FFF4F7FA</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

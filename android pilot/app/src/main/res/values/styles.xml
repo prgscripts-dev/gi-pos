@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- NoActionBar: the app draws its own header, so the system title bar must be hidden to
+       avoid a duplicate/second header. -->
+  <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:fontFamily">sans</item>
+    <item name="android:colorAccent">@color/gi_teal</item>
+    <item name="android:navigationBarColor">@color/gi_ink</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:statusBarColor">@color/gi_surface</item>
+    <!-- Keep native content below the app bar on Android 15. -->
+    <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+  </style>
+</resources>

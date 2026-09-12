@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+
+    <application
+        android:name=".GiPosApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GIPOSAPP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardActivity" android:exported="false" />
+        <activity android:name=".TableActivity" android:exported="false" />
+        <activity android:name=".OrderActivity" android:exported="false" />
+        <activity android:name=".MenuActivity" android:exported="false" />
+        <activity android:name=".ItemEditorActivity" android:exported="false" />
+        <activity android:name=".CheckoutActivity" android:exported="false" />
+        <activity android:name=".SaleSuccessActivity" android:exported="false" />
+        <activity android:name=".PrinterActivity" android:exported="false" />
+        <activity android:name=".ReportActivity" android:exported="false" />
+        <activity android:name=".OrdersActivity" android:exported="false" />
+        <activity android:name=".BusinessSettingsActivity" android:exported="false" />
+        <activity android:name=".PaymentGatewayActivity" android:exported="false" />
+        <activity android:name=".GstSettingsActivity" android:exported="false" />
+        <activity android:name=".UserManagementActivity" android:exported="false" />
+        <activity android:name=".OrderHistoryActivity" android:exported="false" />
+        <activity android:name=".UnclosedOrdersActivity" android:exported="false" />
+        <activity android:name=".TableOrdersActivity" android:exported="false" />
+        <activity android:name=".CustomerActivity" android:exported="false" />
+        <activity android:name=".SettingsActivity" android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+release
+cloud/updates
+*.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.zip
+cloud with plan gold and premium.zip
+
+# Android / Gradle build output
+.gradle/
+**/.gradle/
+**/build/
+**/local.properties
+*.apk
+*.aab
+
+# Private signing certificates
+*.pfx
+*.p12
+
+# Extra safety: env files, Kotlin/Gradle session caches, keystores
+.env.*
+!.env.example
+**/.kotlin/
+**/.cxx/
+*.jks
+*.keystore
+# Prebuilt Android outputs kept in the tree
+**/app/release/
+gi-pos-mobile/GIPOSAPP/app/release/
+
+# Local dev setup notes (contains local credentials)
+GIHOST.TXT
